@@ -1,0 +1,2 @@
+Hello From Inside the container which is in pwd
+Present working directory is:  /home/muhammad/DockerTestPractice/learningDocker/DockerFileExample2
