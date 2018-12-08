@@ -11,6 +11,8 @@ services:
     ports:
       - '80:80'
   web:
-    image: httpd
+    build: 
+      context: .
+      dockerfile: httpd.Dockerfile
     volumes:
       - ./html:/usr/local/apache2/htdocs/
